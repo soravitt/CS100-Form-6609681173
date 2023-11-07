@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TU Library-Register</title>
+
+    <link rel="stylesheet" href="index-style.css">
+</head>
+
+
+<body>
+    <header>
+        <img src="image/TULibrary-logo.jpg" alt="โลโก้ห้องสมุดมหาวิทยาลัยธรรมศาสตร์">
+    </header>
+
+
+    <div class="form">
+        <form action="#">
+            <!--NAME-->
+            <p><label for="name-thai">ชื่อ</label></p>
+            <input type="text" id="name-thai">
+
+            <p><label for="LastName-thai">นามสกุล</label></p>
+            <input type="text" id="LastName-thai">
+
+            <br>
+            <p><label for="name-en">First Name</label></p>
+            <input type="text" id="name-en">
+
+            <p><label for="LastName-en">Last Name</label></p>
+            <input type="text" id="LastName-en">
+
+
+            <!--GENDER-->
+            <br>
+            <p class="gender">เพศ</p>
+            <input type="radio" name="gender"> ชาย
+            <input type="radio" name="gender"> หญิง
+            <input type="radio" name="gender"> อื่นๆ
+
+
+            <!--STUDENT_ID-->
+            <br>
+            <p><label for="id">รหัสนักศึกษา</label></p>
+            <input type="number" id="id" maxlength="10">
+
+
+            <!--Faculty-->
+            <p><label for="faculty">คณะที่ศึกษา</label></p>
+            <select id="faculty">
+                <option value="">นิติศาสตร์</option>
+                <option value="">พาณิชญศาสตร์และการบัญชี</option>
+                <option value="">รัฐศาสตร์</option>
+                <option value="">เศรษฐศาสตร์</option>
+                <option value="">สังคมสงเคราะห์ศาสตร์</option>
+                <option value="">ศิลปศาสตร์</option>
+                <option value="">วารสารศาสตร์และสื่อสารมวลชน</option>
+                <option value="">สังคมวิทยาและมานุษวิทยา</option>
+                <option value="">วิทยาศาสตร์และเทคโนโลยี</option>
+                <option value="">วิศวกรรมศาสตร์</option>
+                <option value="">แพทยศาสตร์</option>
+                <option value="">สหเวชศาสตร์</option>
+                <option value="">ทันตแพทยศาสตร์</option>
+                <option value="">พยาบาลศาสตร์</option>
+                <option value="">ศิลปกรรมศาสตร์</option>
+                <option value="">สถาปัตยกรรมศาสตรและผังเมือง</option>
+                <option value="">สาธารณสุขศาสตร์</option>
+                <option value="">ศิลปศาสตร์</option>
+            </select>
+
+
+            <!--EMAIL-->
+            <br>
+            <p><label for="email">Email</label></p>
+            <input type="email">
+
+
+            <!--Birthday-->
+            <p><label for="birthday">วันเดือนปีเกิด</label></p>
+            <input type="date" id="birthday">
+
+
+            <!--COMMENTS-->
+            <br>
+            <p><label for="comments">ความคิดเห็น</label></p>
+            <textarea id="comments" cols="20" rows="5"></textarea>
+
+
+            <!--SUBMIT-->
+            <br>
+            <br>
+            <input type="submit" value="ส่งข้อมูล" class="submit">
+        </form>
+    </div>
+    
+    
+</body>
+</html>

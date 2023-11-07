@@ -1,0 +1,53 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+    header img{
+        width: 40vw;
+    }
+
+.form{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (min-width: 481px) {
+    *{
+        /* border: 1px red solid; */
+    }
+    header img{
+        width: 20vw;
+    }
+
+    .form{
+        max-width: 70vw;
+        margin: auto;
+        display: flex;
+    }
+
+        form p{
+            display: inline-block;
+        }
+        
+        #comments{
+            display: block;
+            height: 3rem;
+        }
+
+        .submit{
+            display: block;
+            margin: auto;
+        }
+}
+
