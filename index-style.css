@@ -20,6 +20,10 @@ header{
     justify-content: center;
 }
 
+form p{
+    color: brown;
+}
+
 
 /*RESPONSIVE*/
 @media screen and (min-width: 481px) {
@@ -48,6 +52,9 @@ header{
         .submit{
             display: block;
             margin: auto;
+            background-color: brown;
+            color: white;
+            width: 10rem;
         }
 }
 
